@@ -36,5 +36,4 @@ public class Exam {
     @ManyToOne
     @JoinColumn(name = "lesson_id")
     private Lesson lesson;
-
 }
